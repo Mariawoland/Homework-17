@@ -1,0 +1,75 @@
+body {
+    font-family: Helvetica;
+    background: #1A1B1D;
+    color: #FFFFFF;
+}
+
+.text-1 {
+    font-weight: 300;
+    font-size: 135px;
+    line-height: 60%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text-2 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.text-3 {
+    font-weight: 300;
+    font-size: 53px;
+    line-height: 100px;
+
+}
+
+a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.poni {
+    background-image: url(car.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hidden-2 {
+    display: none;
+}
+
+
+@media (max-width: 850px) {
+    .text-1 {
+        font-size: 70px;
+    }
+
+    .text-3 {
+        font-size: 40px;
+    }
+
+    .hidden-1 {
+        display: none;
+    }
+
+    .hidden-2 {
+        display: block;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .text-1 {
+        font-size: 40px;
+    }
+
+    .text-3 {
+        font-size: 32px;
+    }
+}
